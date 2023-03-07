@@ -178,7 +178,7 @@ fi
 # configure session domain to match installer domain
 export SESSION_COOKIE_DOMAIN=${INSTALLER_DOMAIN_NAME}
 
-./server &
+#./server &
 
 SERVER_PID=$!
 NGINX_PID=$(cat /var/run/nginx.pid)
